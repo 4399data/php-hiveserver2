@@ -5,16 +5,18 @@ php client of hive2server
 
 hive2server configuration for me
 <pre>
-`<property>`
-    `<name>hive.server2.thrift.port</name>`
-    `<value>10000</value>`
-`</property>`
-`<property>`
-    `<name>hive.server2.authentication</name>`
-    `<value>NONE</value>`
-`</property>`
-`<property>`
-    `<name>hive.server2.enable.doAs</name>`
-    `<value>false</value>`
-`</property>`
+<code>
+&lt;property&gt;
+    &lt;name&gt;hive.server2.thrift.port&lt;/name&gt;
+    &lt;value&gt;10000&lt;/value&gt;
+&lt;/property&gt;
+&lt;property&gt;
+    &lt;name&gt;hive.server2.authentication&lt;/name&gt;
+    &lt;value&gt;NONE&lt;/value&gt;
+&lt;/property&gt;
+&lt;property&gt;
+    &lt;name&gt;hive.server2.enable.doAs&lt;/name&gt;
+    &lt;value&gt;false&lt;/value&gt;
+&lt;/property&gt;
+</code>
 </pre>
