@@ -2,6 +2,7 @@ php-hive2server
 ===============
 
 php client of hive2server
+support 5.2+
 
 hive2server configuration for me
 <pre>
