@@ -4,7 +4,7 @@ php-hive2server
 php client of hive2server
 
 hive2server configuration for me
-<code>
+<pre>
 <property>
         <name>hive.server2.thrift.port</name>
         <value>10000</value>
@@ -19,4 +19,4 @@ hive2server configuration for me
         <name>hive.server2.enable.doAs</name>
         <value>false</value>
 </property>
-</code>
+</pre>
