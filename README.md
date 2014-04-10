@@ -1,4 +1,4 @@
-php-hive2server
+php-hiveserver2
 ===============
 
 php client of hive2server
