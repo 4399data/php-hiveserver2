@@ -14,7 +14,7 @@ require_once $GLOBALS['THRIFT_ROOT'] . '/protocol/TBinaryProtocol.php';
  */
 
 //hive2server`host and port
-$transport = new TSaslClientTransport('localhost', 10000);
+$transport = new TSaslClientTransport(new TSocket('localhost', 10000));
 
 $protocol = new TBinaryProtocol($transport);
 
